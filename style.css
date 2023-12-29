@@ -1,0 +1,60 @@
+body {
+  background-color: rgba(187, 153, 221, 0.08);
+  font-family: "Poppins";
+  color: rgb(175, 167, 182);
+}
+
+#container {
+  border: 3px solid rgba(187, 153, 221);
+  width: 414px;
+  height: 896px;
+  margin: auto;
+  perspective: 500px;
+}
+
+#perfil {
+  border: 1px solid red;
+  text-align: center;
+  padding: 120px;
+  position: relative;
+}
+
+#perfil img {
+  width: 213px;
+  height: 213px;
+  margin: auto;
+  transition: 1s;
+}
+
+#perfil img:hover {
+  /*transform: rotatez(90deg);*/
+  animation: pirueta 5s ease-in-out;
+}
+@keyframes pirueta {
+  25% {
+    transform: rotatez(90deg);
+  }
+  75% {
+    transform: rotatez(-90deg);
+  }
+  100% {
+    transform: rotatez(0deg);
+  }
+}
+#img2 {
+  border: 2px rgb(157, 128, 182) solid;
+  border-radius: 50%;
+  padding: 3px;
+}
+#perfil p {
+  font-weight: 300;
+  line-height: 24px;
+}
+
+ul li a {
+  font-weight: 600;
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+}
