@@ -1,11 +1,11 @@
 body {
-  background-color: rgba(187, 153, 221, 0.08);
+  background-color: rgba(198, 171, 224, 0.08);
   font-family: "Poppins";
-  color: rgb(175, 167, 182);
+  color: rgb(158, 122, 189);
 }
 
 #container {
-  border: 3px solid rgba(187, 153, 221);
+  border: 4px solid rgba(187, 153, 221);
   width: 414px;
   height: 896px;
   margin: auto;
@@ -13,16 +13,21 @@ body {
 }
 
 #perfil {
-  border: 1px solid red;
+  justify-content: center;
   text-align: center;
-  padding: 120px;
-  position: relative;
+  padding: 29px;
+  margin: auto;
+  width: 297px;
+  height: 231px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-bottom: 54px;
+  margin-right: 77px;
 }
 
 #perfil img {
   width: 213px;
   height: 213px;
-  margin: auto;
   transition: 1s;
 }
 
@@ -42,7 +47,7 @@ body {
   }
 }
 #img2 {
-  border: 2px rgb(157, 128, 182) solid;
+  border: 3px rgb(157, 128, 182) solid;
   border-radius: 50%;
   padding: 3px;
 }
@@ -50,11 +55,41 @@ body {
   font-weight: 300;
   line-height: 24px;
 }
-
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 ul li a {
   font-weight: 600;
   line-height: normal;
 }
+ul li {
+  border: 2px solid rgb(157, 128, 182);
+  border-radius: 4px;
+  width: 326px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(187, 153, 221, 0.08);
+}
 a {
+  color: #b9d;
   text-decoration: none;
+}
+#social-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 29px;
+  font-size: 24px;
+  padding: 24px 0px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0px;
 }
